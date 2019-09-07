@@ -1,0 +1,1103 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style_2.css" >
+    <link rel="stylesheet" href="css/pagination.css" >
+
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <title>Homsters</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class='row justify-content-between'>
+        <div class='col-auto col-sm-auto col-md-auto col-lg-auto col-xl-auto'>
+          
+        </div>
+      </div>
+    </header>
+
+
+    <div class='height_80px'></div>
+
+  <div class='bannerBlock_1'>
+    <div class='content_1024'>
+      <div class='bannerTextDiv'>      
+        <div>
+          <h1>Чистовая отделка</h1>
+          <p>Беззаботный ремонт - <br>
+            Это вполне реально</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class='content_1024'>
+      <div class='BIg_ad'>        
+          <div class='row justify-content-around'>
+            <div class='col-auto col-sm-auto col-md-auto col-lg-auto col-xl-auto'>
+              <img class='marLeft_15' src='img/logo-second.png'>
+            </div>
+            <div class='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-7'>
+              <p><span class='semiBold'>BI Group - крупный строительный холдинг,</span> лидер на рынке недвижимости Казахстана. Холдинг работает с 1995 года и за это время заслужил репутацию профессионала и надежного партнера.</p>
+            </div>
+          </div>
+          <p class='marLeft_15'>BI Group сегодня – многопрофильный холдинг, структуру которой составляют дивизионы и дирекции в различных сферах строительства, девелопмента и инжиниринга</p>
+
+          <div class='row justify-content-between'>
+            <div class='col-auto col-sm-auto col-md-auto col-lg-auto col-xl-auto flexAlignEnd order-last order-sm-2 order-md-2 order-lg-1 order-xl-1'>
+              <div class='cityChanger'>
+                <p>Выберите город:</p>
+                <select>
+                	<option><a href='#'>Алматы</a></option>
+                	<option><a href='#'>Астана</a></option>
+                </select>
+                
+              </div>
+            </div>
+
+            <div class='col-12 col-sm-12 col-md-12 col-lg-auto col-xl-auto order-first order-sm-1 order-md-1 order-lg-2 order-xl-2'>
+              <div class='boxOfBoxes'>
+                <div class='box box_1'>
+                  <h1>12</h1>
+                  <p>Дивизионов</p>
+                </div>
+                <div class='box box_2'>
+                  <h1>4</h1>
+                  <p>Компаний</p>
+                </div>
+                <div class='box box_3'>
+                  <h1>115</h1>
+                  <p>Действующих<br>Проектов</p>
+                </div>
+              </div>
+            </div>
+          </div>        
+      </div>
+    </div>
+
+    <div class='tabs'>
+      <div class='content_1024'>
+        <div class='flexyAndBetween'>
+          <div class='tab tab_1' onclick="turn_on_visibility('newApartamentsTab'); turn_off_visibility('readyEstates'); turn_off_visibility('pricesOff'); turn_off_visibility('parking'); turn_off_visibility('commercialEstate');">
+            <p>Новые ЖК</p>
+          </div>
+
+          <div class='tab tab_2' onclick="turn_off_visibility('newApartamentsTab'); turn_on_visibility('readyEstates'); turn_off_visibility('pricesOff'); turn_off_visibility('parking'); turn_off_visibility('commercialEstate');">
+            <p>Готовая недвижимость</p>
+          </div>
+
+          <div class='tab tab_3' onclick="turn_off_visibility('newApartamentsTab'); turn_off_visibility('readyEstates'); turn_on_visibility('pricesOff'); turn_off_visibility('parking'); turn_off_visibility('commercialEstate');">
+            <p>Акции</p>
+          </div>
+
+          <div class='tab tab_4' onclick="turn_off_visibility('newApartamentsTab'); turn_off_visibility('readyEstates'); turn_off_visibility('pricesOff'); turn_on_visibility('parking'); turn_off_visibility('commercialEstate');">
+            <p>Паркинги/кладовки</p>
+          </div>
+
+          <div class='tab tab_5' onclick="turn_off_visibility('newApartamentsTab'); turn_off_visibility('readyEstates'); turn_off_visibility('pricesOff'); turn_off_visibility('parking'); turn_on_visibility('commercialEstate');">
+            <p>Коммерческая недвижимость</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='newApartamentsTab' class='newApartamentsTab'>
+      <div class='apartamentsPage_1 apartamentsPage'>
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='adBanner'>
+          <img src='img/adbanner.png'>
+        </div>
+
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='shader'></div>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="content_detail__pagination cdp" actpage="1">
+        <a href="#!-1" class="cdp_i">&#60;</a>
+        <a href="#!1" class="cdp_i">1</a>
+        <a href="#!2" class="cdp_i">2</a>
+        <a href="#!3" class="cdp_i">3</a>
+        <a href="#!4" class="cdp_i">4</a>
+        <a href="#!5" class="cdp_i">5</a>
+        <a href="#!6" class="cdp_i">6</a>
+        <a href="#!7" class="cdp_i">7</a>
+        <a href="#!8" class="cdp_i">8</a>
+        <a href="#!9" class="cdp_i">9</a>
+        <a href="#!10" class="cdp_i">10</a>
+        <a href="#!11" class="cdp_i">11</a>
+        <a href="#!+1" class="cdp_i">&#62;</a>
+      </div>
+    </div>
+
+    <div id='readyEstates' class='newApartamentsTab'>
+      <div class='apartamentsPage_1 apartamentsPage'>
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='adBanner'>
+          <img src='img/adbanner.png'>
+        </div>
+
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="content_detail__pagination cdp" actpage="1">
+        <a href="#!-1" class="cdp_i">&#60;</a>
+        <a href="#!1" class="cdp_i">1</a>
+        <a href="#!2" class="cdp_i">2</a>
+        <a href="#!3" class="cdp_i">3</a>
+        <a href="#!4" class="cdp_i">4</a>
+        <a href="#!5" class="cdp_i">5</a>
+        <a href="#!6" class="cdp_i">6</a>
+        <a href="#!7" class="cdp_i">7</a>
+        <a href="#!8" class="cdp_i">8</a>
+        <a href="#!9" class="cdp_i">9</a>
+        <a href="#!10" class="cdp_i">10</a>
+        <a href="#!11" class="cdp_i">11</a>
+        <a href="#!+1" class="cdp_i">&#62;</a>
+      </div>
+    </div>
+
+    <div id='pricesOff' class='newApartamentsTab'>
+      <div class='apartamentsPage_1 apartamentsPage'>
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='adBanner'>
+          <img src='img/adbanner.png'>
+        </div>
+
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="content_detail__pagination cdp" actpage="1">
+        <a href="#!-1" class="cdp_i">&#60;</a>
+        <a href="#!1" class="cdp_i">1</a>
+        <a href="#!2" class="cdp_i">2</a>
+        <a href="#!3" class="cdp_i">3</a>
+        <a href="#!4" class="cdp_i">4</a>
+        <a href="#!5" class="cdp_i">5</a>
+        <a href="#!6" class="cdp_i">6</a>
+        <a href="#!7" class="cdp_i">7</a>
+        <a href="#!8" class="cdp_i">8</a>
+        <a href="#!9" class="cdp_i">9</a>
+        <a href="#!10" class="cdp_i">10</a>
+        <a href="#!11" class="cdp_i">11</a>
+        <a href="#!+1" class="cdp_i">&#62;</a>
+      </div>
+    </div>
+
+    <div id='parking' class='newApartamentsTab'>
+      <div class='apartamentsPage_1 apartamentsPage'>
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='adBanner'>
+          <img src='img/adbanner.png'>
+        </div>
+
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="content_detail__pagination cdp" actpage="1">
+        <a href="#!-1" class="cdp_i">&#60;</a>
+        <a href="#!1" class="cdp_i">1</a>
+        <a href="#!2" class="cdp_i">2</a>
+        <a href="#!3" class="cdp_i">3</a>
+        <a href="#!4" class="cdp_i">4</a>
+        <a href="#!5" class="cdp_i">5</a>
+        <a href="#!6" class="cdp_i">6</a>
+        <a href="#!7" class="cdp_i">7</a>
+        <a href="#!8" class="cdp_i">8</a>
+        <a href="#!9" class="cdp_i">9</a>
+        <a href="#!10" class="cdp_i">10</a>
+        <a href="#!11" class="cdp_i">11</a>
+        <a href="#!+1" class="cdp_i">&#62;</a>
+      </div>
+    </div>
+
+    <div id='commercialEstate' class='newApartamentsTab'>
+      <div class='apartamentsPage_1 apartamentsPage'>
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='adBanner'>
+          <img src='img/adbanner.png'>
+        </div>
+
+        <div class='apartamentCard apartamentCard_1'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_2'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_3'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_4'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_5'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+        <div class='apartamentCard apartamentCard_6'>
+          <div class='apartamentParams'>
+            <h5>ONLY SUN & MOON</h5>
+            <div class='flexyAndBetweenAdress'>
+              <img src='img/location-sign.png'>
+              <p>Астана, район Есиль,<br>проспект Кабанбай батыра, 48</p>
+            </div>
+            <p>Цена за квартиру:  <span class='semiBold'>от 23,22 млн. тг.</span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="content_detail__pagination cdp" actpage="1">
+        <a href="#!-1" class="cdp_i">&#60;</a>
+        <a href="#!1" class="cdp_i">1</a>
+        <a href="#!2" class="cdp_i">2</a>
+        <a href="#!3" class="cdp_i">3</a>
+        <a href="#!4" class="cdp_i">4</a>
+        <a href="#!5" class="cdp_i">5</a>
+        <a href="#!6" class="cdp_i">6</a>
+        <a href="#!7" class="cdp_i">7</a>
+        <a href="#!8" class="cdp_i">8</a>
+        <a href="#!9" class="cdp_i">9</a>
+        <a href="#!10" class="cdp_i">10</a>
+        <a href="#!11" class="cdp_i">11</a>
+        <a href="#!+1" class="cdp_i">&#62;</a>
+      </div>
+    </div>
+
+
+    <div class='dreamsComeTrue'>
+      <img src='img/dreamsComeTrue.png'>
+    </div>
+
+    <div class='whatsBiFinance'>
+      <div class='content_1024'>
+        <h5>Что такое BI Finance?</h5>
+        <p>BI Finance – это партнерские отношения с банками по ипотечному и потребительскому кредитованию, 
+        а также сотрудничество по реализации собственных и государственных программ.</p>
+        <h5>Преимущества программы:</h5>
+        <div class='row justify-content-between'>
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 JCinAD'>
+            <div class='flexyAdvantages'>
+              <div class='imgWrap'><img src='img/checklist.png'></div>
+              <p>Мы подберем<br>
+                самые подходящие<br>
+                для вас условия</p>
+            </div>
+          </div>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 JCinAD'>
+            <div class='flexyAdvantages'>
+              <div class='imgWrap'><img src='img/settings.png'></div>
+              <p>Качественный<br>сервис</p>
+            </div>
+          </div>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 JCinAD'>
+            <div class='flexyAdvantages'>
+              <div class='imgWrap'><img src='img/contract.png'></div>
+              <p>Полное<br>
+                сопровождение<br>
+                сделки</p>
+            </div>
+          </div>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 JCinAD'>
+            <div class='flexyAdvantages mt_20'>
+              <div class='imgWrap'><img src='img/secure-shield.png'></div>
+              <p>Гарантия<br>
+                безопасности и<br>
+                конфиденциальности<br>
+                ваших данных!</p>
+            </div>
+          </div>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 JCinAD'>
+            <div class='flexyAdvantages mt_20'>
+              <div class='imgWrap'><img src='img/investment.png'></div>
+              <p>Упрощенный процесс<br>
+               покупки. Просто,<br>
+               быстро, выгодно!</p>
+            </div>
+          </div>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 JCinAD'>
+            <div class='flexyAdvantages mt_20'>
+              <div class='imgWrap'><img src='img/stopwatch.png'></div>
+              <p>Помогаем экономить<br>
+                ваше время!<br>
+                предствители банков<br>
+                партнеров в одном<br>
+                офисе</p>
+            </div>
+          </div>
+        </div>
+        <div class='height_40px'></div>
+        <div class='height_40px'></div>
+      </div>
+    </div>
+
+    <div class='partnersProgramm'>
+      <div class='content_1024'>
+        <div class='height_40px'></div>
+          <h5 style='color: #fff; text-align: center;'>Предлагаем Вам на выбор<br> 
+              программы от партнеров:</h5>
+
+          <div class='row justify-content-between'>
+            <div class='col-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 flexyCol'>
+              <img src='img/logozhil2.png'>
+            </div>
+
+            <div class='col-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 flexyCol'>
+              <img src='img/logokaz3.png'>
+            </div>
+
+            <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 flexyCol'>
+              <img src='img/logosber.png'>
+            </div>
+
+            <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 flexyCol'>
+              <img src='img/logobck.png'>
+            </div>
+          </div>
+          <div class='height_40px'></div>
+        </div>
+      </div>
+
+      <div class='mapBlock'>
+        <a class="dg-widget-link" href="http://2gis.kz/almaty/firm/70000001023681360/center/76.95343494415285,43.228303941914774/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><div class="dg-widget-link"><a href="http://2gis.kz/almaty/firm/70000001023681360/photos/70000001023681360/center/76.95343494415285,43.228303941914774/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.kz/almaty/center/76.953439,43.22801/zoom/16/routeTab/rsType/bus/to/76.953439,43.22801╎BI Group, строительная компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до BI Group, строительная компания</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":640,"height":600,"borderColor":"#a3a3a3","pos":{"lat":43.228303941914774,"lon":76.95343494415285,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"70000001023681360"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+      </div>
+
+      <footer>
+        <div class='content_1160px'>
+          <div class='upperLine'>
+            <a href='#'>О Homsters.kz</a>
+            <a href='#'>Все о недвижимости</a>
+            <a href='#'>Аналитика рынка</a>
+            <a href='#'>Обзоры</a>
+            <a href='#'>Для застройщиков</a>
+          </div>
+
+          <div class='lowerLine'>
+            <a href='#'>Карта сайта</a>
+            <a href='#'>Условия и положения</a>
+            <a href='#'>Powered by Homsters.com</a>
+            <div class='socialMedias'>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+<!--Pagination Script-->
+  <script>
+    window.onload = function(){
+    var paginationPage = parseInt($('.cdp').attr('actpage'), 10);
+    $('.cdp_i').on('click', function(){
+      var go = $(this).attr('href').replace('#!', '');
+      if (go === '+1') {
+        paginationPage++;
+      } else if (go === '-1') {
+        paginationPage--;
+      }else{
+        paginationPage = parseInt(go, 10);
+      }
+      $('.cdp').attr('actpage', paginationPage);
+    });
+  };
+  </script>
+
+
+    <script>
+        function turn_on_visibility(id) {
+         let e = document.getElementById(id);
+         if(e.style.display == 'none')            
+            e.style.display = 'block';
+         else
+            e.style.display = 'block';
+        }
+    </script>
+
+    <script>
+        function turn_off_visibility(id) {
+         let e = document.getElementById(id);
+         if(e.style.display == 'block')
+            e.style.display = 'none';            
+         else
+            e.style.display = 'none';
+        }
+    </script>
+
+    
+
+    
+
+
+
+
+
+
+
+</html>

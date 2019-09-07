@@ -1,0 +1,627 @@
+/*olx_homsters*********************************************************************************************************************/
+
+header {
+	height: 80px;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	right: 0;
+	z-index: 999999;
+}
+
+.content_1024 {
+	max-width: 1024px;
+	min-width: 200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.bannerBlock_1 {
+	background: url(../img/background1.png) no-repeat;
+	background-size: 100% 100%;
+	height: 420px;	
+	width: 100%;
+}
+
+.bannerTextDiv {
+	display: flex;
+	align-items: center;
+	height: 420px;
+	padding-left: 45px;
+}
+
+.bannerBlock_1 h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+	color: #fff;	
+}
+
+.bannerBlock_1 p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color: #fff;
+}
+
+.height_80px {
+	height: 80px;
+}
+
+.BIg_ad {
+	padding-top: 35px;
+}
+
+.BIg_ad p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.semiBold {
+	font-weight: 600;
+}
+
+.marLeft_15 {
+	margin-left: 15px;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+	p.marLeft_15 {
+		margin-left: 0;
+	}
+
+	img.marLeft_15 {
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 330px) {
+	img.marLeft_15 {
+		width: 100%;
+	}
+}
+
+.boxOfBoxes {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.box {
+	width: 169px;		
+}
+
+.box_1 {
+	border-top: #b8b5b5 solid 1px;
+	border-left: #b8b5b5 solid 1px;
+	border-bottom: #b8b5b5 solid 1px;
+	background: url(../img/box_1Back.png) no-repeat;	
+}
+
+.box_2 {
+	border: #b8b5b5 solid 1px;
+	background: url(../img/box_2Back.png) no-repeat;	
+}
+
+.box_3 {
+	border-top: #b8b5b5 solid 1px;
+	border-right: #b8b5b5 solid 1px;
+	border-bottom: #b8b5b5 solid 1px;
+	background: url(../img/box_3Back.png) no-repeat;
+}
+
+
+
+.box h1 {
+	text-align: center;
+	color: #0280c3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 75px;
+}
+
+.box p {
+	text-align: center;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+@media (min-width: 200px) and (max-width: 506px) {
+	.box {
+		width: 33.3%;
+	}
+}
+
+.cityChanger {
+	background: url(../img/cityChangerBack.png) no-repeat;
+	height: 40px;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	padding: 0px 40px 0px 20px;
+	align-items: center;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+	.cityChanger {
+		margin-left: -15px;
+		margin-top: 15px;
+	}
+
+	.boxOfBoxes {
+		justify-content: center;
+	}
+}
+
+.cityChanger p {
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.cityChanger a {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.cityChanger select {
+	border: none;
+	background: transparent;
+	color: #fff;
+	outline: none;		
+  	-webkit-appearance: none; 
+   	-moz-appearance: none;
+}
+
+.cityChanger select:hover {
+	outline: none;
+}
+
+.cityChanger select:active {
+	outline: none;
+}
+
+.cityChanger select option {
+	background: #30608f;
+	border: none;
+}
+
+.flexAlignEnd {
+	display: flex;
+	align-items: flex-end;
+}
+
+.tabs {
+	background-color: #4e7dab;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+.tab {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+	padding: 5px 0;
+}
+
+.tab:hover {
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 200ms;	
+}
+
+.tab {
+  	display: inline-block;
+  	overflow: hidden;
+}
+
+.tab:before, .tab:after {
+	position: absolute;	
+	content: '';  	
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	transition: all 500ms;
+}
+
+.tab:before {	
+  	bottom: 0;
+  	transform: translateX(-102%);  	
+}
+
+.tab:after {
+	position: absolute;	
+  	top: 0;
+  	transform: translateX(102%);  	
+}
+
+.tab:hover:before, .tab:hover:after {
+  	transform: translateX(0);
+}
+
+
+
+@media (min-width: 670px) and (max-width: 800px) {
+	.tab {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.tab:hover {
+		cursor: pointer;
+		font-size: 15px;
+		transition: all 200ms;
+		text-decoration: underline;
+	}
+}
+
+
+@media (min-width: 420px) and (max-width: 669px) {
+	.tab {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.tab:hover {
+		cursor: pointer;
+		font-size: 13px;
+		transition: all 200ms;
+		text-decoration: underline;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 419px) {
+	.tab {
+		font-size: 9px;
+		text-align: center;
+	}
+
+	.tab:hover {
+		cursor: pointer;
+		font-size: 10px;
+		transition: all 200ms;
+		text-decoration: underline;
+	}
+
+	.tab p {
+		max-width: 73px;
+	}
+}
+
+.tab p {
+	margin-bottom: 0;
+}
+
+.flexyAndBetween {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;	
+}
+
+.newApartamentsTab {
+	padding: 0 15px;
+}
+
+.apartamentsPage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.apartamentCard {
+	width: 49%;
+	height: 24vw;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 15px;	
+}
+
+.shader {
+	width: 100%;
+	height: 100%;
+}
+
+.shader:hover {	
+	cursor: pointer;
+	background-color: #000;
+	opacity: 0.6;
+	transition: all 500ms;
+}
+
+
+
+.apartamentParams {
+	background-color: #fff;
+	max-width: 50%;
+	padding: 25px 20px 10px 15px;
+	position: absolute;
+
+}
+
+.apartamentParams h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.apartamentParams p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.flexyAndBetweenAdress {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.flexyAndBetweenAdress p {
+	margin-bottom: 0;
+}
+
+.flexyAndBetweenAdress img {
+	height: 25px;
+}
+
+.apartamentCard_1 {
+	background: url(../img/apartamentBack_1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apartamentCard_2 {
+	background: url(../img/apartamentBack_2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apartamentCard_3 {
+	background: url(../img/apartamentBack_3.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apartamentCard_4 {
+	background: url(../img/apartamentBack_4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apartamentCard_5 {
+	background: url(../img/apartamentBack_5.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apartamentCard_6 {
+	background: url(../img/apartamentBack_6.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apartamentCard:hover {
+	background-size: 110% 110%;
+	transition: all 800ms ease-in-out;
+}
+
+
+@media (min-width: 200px) and (max-width: 1148px) {
+	.apartamentParams {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 830px) {
+	.apartamentCard {
+		width: 100%;
+		height: 50vw;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 540px) {
+	.apartamentParams p {
+		font-size: 10px;
+	}
+
+	.apartamentParams h5 {
+		font-size: 12px;
+	}
+
+	.box h1 {
+		font-size: 50px;
+	}
+
+	.box p {
+		font-size: 12px;
+	}
+}
+
+.adBanner {
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	margin-top: -15px;
+	width: 100%;
+}
+
+.dreamsComeTrue {
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 200px) and (max-width: 1366px) {
+	.dreamsComeTrue img {
+		width: 100%;
+	}
+
+	.adBanner img {
+		width: 100%;
+	}
+}
+
+.whatsBiFinance {
+	padding-top: 50px;		
+}
+
+.whatsBiFinance .content_1024 {
+	background: url(../img/whiteBGWithHouses.png) no-repeat;
+	background-position: 26% 107%;	
+}
+
+.whatsBiFinance h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.whatsBiFinance p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	text-align: center;
+}
+
+.flexyAdvantages {
+	display: flex;		
+}
+
+.flexyAdvantages img {
+	align-self: flex-start;
+}
+
+.flexyAdvantages p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 30px;
+	margin-bottom: 0;
+}
+
+.mt_20 {
+	margin-top: 20px;
+}
+
+.mt_10 {
+	margin-top: 10px;
+}
+
+.imgWrap {
+	width: 86px;
+	height: 84px;
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+	.flexyAdvantages {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 575px) {
+	.flexyAdvantages {		
+		width: 290px;
+	}
+
+	.flexyAdvantages p {
+		font-size: 14px;
+	}
+
+	.JCinAD {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.partnersProgramm .content_1024 {
+	background: url(../img/blueBackWithHouses.png) no-repeat;
+	background-position: top center;
+}
+
+.height_40px {
+	height: 40px;
+}
+
+.partnersProgramm {	
+	background-color: #0280c3;	
+}
+
+.flexyCol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: 200px) and (max-width: 1050px) {
+	.whatsBiFinance .content_1024 {
+		background: transparent;
+	}
+
+	.partnersProgramm .content_1024 {
+		background: transparent;
+	}
+}
+
+.mapBlock iframe {
+	width: 100%;
+}
+
+.content_1160px {
+	max-width: 1160px;
+	min-width: 200px;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #27292a;
+	padding: 25px 0;
+	margin-top: -6px;
+}
+
+footer a {
+	color: #b6b8b9;
+	margin: 0 5px;
+}
+
+footer a:hover {
+	color: #b6b8b9;
+}
+
+footer a:active {
+	color: #b6b8b9;
+}
+
+.upperLine {
+	border-bottom: #3e4041 solid 1px;
+	padding-bottom: 20px;
+}
+
+.lowerLine {	
+	padding-top: 20px;
+}
+
+#readyEstates {
+	display: none;
+}
+
+#pricesOff {
+	display: none;
+}
+
+#parking {
+	display: none;
+}
+
+#commercialEstate {
+	display: none;
+}
+
